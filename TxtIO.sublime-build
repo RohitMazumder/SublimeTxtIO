@@ -1,0 +1,13 @@
+{
+	"java" :
+	{
+		"cmd" : 
+		"javac \"${file}\" && java -cp \"${classpath}\" ${file_name} "
+	},
+
+	"py":
+	{
+		"cmd" :
+		"python -u \"${file}\" "
+	},
+}
